@@ -4,13 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lenn rocks</title>
+    <meta name="description" content="This guy rocks.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="lenn rocks">
+    <meta property="og:description" content="This guy rocks.">
+    <meta property="og:url" content="https://lenn.rocks/">
     <link rel="icon" href="favicon.ico">
-    <!-- chores: Update tailwindcss by downloading latest version from CDN. Currently used: https://cdn.tailwindcss.com/3.4.16 -->
-    <script src="vendor/tailwindcss.3.4.16.js"></script>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            background: #f3f4f6;
+            font: 1rem/1.5 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1 {
+            margin: 0;
+            color: #111827;
+            font: inherit;
+        }
+    </style>
     <!-- 100% privacy-first analytics: from https://scripts.simpleanalyticscdn.com/latest.js  -->
     <script src="vendor/simpleanalytics.v11.js"></script>
 </head>
-<body class="flex justify-center items-center min-h-screen font-mono antialiased bg-gray-100">
-    <p class="text-gray-900 text-md">This guy rocks.</p>
+<body>
+    <main>
+        <h1>This guy rocks.</h1>
+    </main>
 </body>
 </html>
