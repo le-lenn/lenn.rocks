@@ -4,6 +4,8 @@
 
 ## Deployment Instructions
 
+On Pennard-1, enable the shared auto-deployer with `systemctl enable --now compose-deploy@lenn.rocks.timer`.
+
 #### Portainer
 
 ![Portainer deployment stack settings](assets/deployment.png)
